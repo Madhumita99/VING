@@ -40,6 +40,7 @@ body {
 .navbar-nav li a{
 	height: 30px; 
 	padding: 40px 40px 75px 75px ;
+	text-transform: uppercase;
 	
 }
 .navbar-nav #booking-tile, .navbar-nav #team-tile, .navbar-nav #biling-tile {
