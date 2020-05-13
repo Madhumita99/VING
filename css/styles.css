@@ -1,0 +1,134 @@
+body {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #d2d4d6;
+    background-color: black;
+}
+
+/** HEADER **/
+
+#header-nav {
+    background-color: white;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+	padding: 25px 75px 25px 75px ;
+	font-family: 'Roboto Slab', serif;
+	color: #434445;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bolder;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+.navbar-brand a:hover {
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #abadb0;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #abadb0;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-nav li a{
+	height: 30px; 
+	padding: 40px 40px 75px 75px ;
+	
+}
+.navbar-nav #booking-tile, .navbar-nav #team-tile, .navbar-nav #biling-tile {
+	line-height: 75px;
+	text-align: center;
+    font-weight: bold;
+    color: #434445;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+#nav-list a:hover {
+    border-bottom: 2px solid #434445;
+}
+
+#nav-list .active {
+	border-bottom: 2px solid #434445;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #abadb0;
+}
+
+/** END HEADER */
+
+/** MAIN CONTENT **/
+
+#main-content {
+    width: 85%;
+}
+
+#main-content .head-start {
+    width: 70%;
+}
+.row #back-tile {
+    color: #9daebf;
+}
+
+#main-content h2 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Roboto Slab', serif;
+    color: #9daebf;
+
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    font-family: 'Roboto Slab', serif;
+}
+
+#booking1-tile, #booking2-tile, #booking3-tile, #booking4-tile {
+    padding-top: 10px;
+	background-color: #d2d4d6;
+	color: #434445;
+    height: 400px;
+    text-align: center;
+}
+
+
+#booking1-tile:hover{
+	 background-color: black;
+	 color: #9daebf;
+	 border: 1px solid white;
+
+}
+
+#booking2-tile:hover{
+     background-color: black;
+     color: #9daebf;
+     border: 1px solid white;
+}
+
+#booking3-tile:hover{
+     background-color: black;
+     color: #9daebf;
+     border: 1px solid white;
+}
+
+#booking4-tile:hover{
+     background-color: black;
+     color: #9daebf;
+     border: 1px solid white;
+}
+
+
+
+
